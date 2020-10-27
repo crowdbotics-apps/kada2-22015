@@ -26,7 +26,8 @@ export class Blank extends React.Component {
 
 const styles = StyleSheet.create({
   container: { flex: 1, marginHorizontal: 16 },
-  View_1: { height: 50 }
+  View_1: { height: 50 },
+  View_1: { height: 50, borderStyle: "dotted", borderWidth: 13 }
 })
 
 function mapStateToProps(state) {
